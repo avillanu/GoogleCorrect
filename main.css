@@ -1,0 +1,194 @@
+/*-------------Reset.css--------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------Real CSS------*/
+
+
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+nav {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+
+}
+.topNav li {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	bottom: auto;
+	background-color: white;
+	font-size: 12px;
+}
+li.navlist a {
+	vertical-align: middle;
+}
+/*I used almost all IDs instead of classes because nothing really ever repeated*/
+#share {
+	height: 30px;
+	width: 60px;
+	background-color: #eee;
+	padding: 7px 12px;
+	margin-right: 1px;
+	margin-top: -2px;
+	text-align: center;
+	
+}
+#face {
+	height: 30px;
+	width: 30px;
+}
+#container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 576px;
+	background-color: white;
+}
+#googleBox {
+	margin-top: 190px;
+	width: 575px;
+}
+/*used this style just to show that I can*/
+div div a img {
+	height: 95px;
+	width: 269px;
+	display: block;
+	margin: 5px auto;
+	padding-bottom: 20px;
+}
+body div div table {
+	left: auto;
+	right: auto;
+	width: 573px;
+}
+#searchBar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 572px;
+	height: 30px;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+}
+#search {
+	position: relative;
+	margin: 0 auto;
+	width: 224px;
+	padding-top: 10px;
+}
+#search:focus {
+	border: 0.25px solid #000ff;
+}
+#searchMic {
+	position: relative;
+	left: -25px;
+	bottom: 5px;
+}
+.search-button {
+	border-radius: 2px;
+	background-color: #f0f0f0;
+	border: 1px solid #e0e0e0;
+	font-weight: bolder;
+	font-size: 11px;
+	padding: 7px 8px;
+	font-family: arial, sans-serif;
+	color: #303030;
+	margin-right: 5px;
+}
+#lucky {
+	margin-right: 0;
+}
+p {
+	text-align: center;
+	font-size: 13px;
+}
+#text {
+	padding-top: 40px;
+}
+#blue {
+	color: #12c;
+}
+.footerContain {
+	position: absolute;
+	bottom: 0;
+	background-color: #eee;
+	width: 100%;
+}
+#footerLeft {
+	float: left;
+}
+#footerRight {
+	float: right;
+}
+.footerList li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #606060;
+}
+span {
+	color: #b14436;
+}
